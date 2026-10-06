@@ -1,5 +1,10 @@
 # CV toolkit implementation plan
 
+This records the initial implementation. On 6 October 2026, the owner requested
+a headline refresh to Technical Product Owner in the single-file and MBA-profile
+examples. That update supersedes the initial byte-for-byte preservation rule for
+the target headline only; see ACCEPTANCE.md for the refreshed exports.
+
 ## Expected result
 
 A portable repository with four entry folders: Alisa's unchanged 3 October 2026

@@ -51,7 +51,7 @@ keep scale at **100%**, turn browser **Headers and footers off**, and enable
 before saving. The supplied layouts already contain their own margins and page
 numbers. [More printing help](docs/PRINTING.md).
 
-The unchanged original example needs **99% scale** in the tested Chrome version
+The single-file example needs **99% scale** in the tested Chrome version
 to stay on two pages. Your template and the structured exports use **100%**.
 
 ## Just browsing? Here are the PDFs.
@@ -60,8 +60,8 @@ You can view these directly on GitHub before downloading or editing anything:
 
 | Example | Classic PDF | Editorial PDF |
 | --- | --- | --- |
-| Original single-file CV | [Original PDF](Single%20file%20example%20-%20Alisa%20Petrova%20CV/cv.pdf) | — |
-| MBA / technology and product leadership | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-editorial.pdf) |
+| Single-file CV / Technical Product Owner | [PDF](Single%20file%20example%20-%20Alisa%20Petrova%20CV/cv.pdf) | — |
+| Technical Product Owner / MBA profile | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-editorial.pdf) |
 | Team Lead / engineering leadership | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/team-lead-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/team-lead-editorial.pdf) |
 
 These are finished examples. PDF files are snapshots and are not automatically
@@ -75,7 +75,7 @@ emphasise, and try a different visual style without rewriting everything.
 
 | Start with | Use it for |
 | --- | --- |
-| [Single file example - Alisa Petrova CV](Single%20file%20example%20-%20Alisa%20Petrova%20CV) | The original 3 October 2026 CV, preserved unchanged. |
+| [Single file example - Alisa Petrova CV](Single%20file%20example%20-%20Alisa%20Petrova%20CV) | Based on the 3 October 2026 CV, with the target headline updated to Technical Product Owner. |
 | [Single file template - your CV](Single%20file%20template%20-%20your%20CV) | The quickest way to make your own CV with an AI assistant. |
 | [Structured CV example - Alisa Petrova](Structured%20CV%20example%20-%20Alisa%20Petrova) | A complete example with two profiles and two styles. |
 | [Structured CV template](Structured%20CV%20template) | The same structure with clearly marked placeholders for your own facts. |
@@ -147,9 +147,10 @@ items, and no trailing commas or comments.
 
 ## Profiles: change the emphasis, keep the facts
 
-The example's `mba` profile preserves the original CV's wording and reading
-order. It suits the technology/product/leadership framing used for an MBA
-application; it does not claim that an MBA has already been completed.
+The example's `mba` profile preserves the single-file example's wording and
+reading order, with **Technical Product Owner** as the current target headline.
+The profile name reflects its original technology/product/leadership framing for
+an MBA application; it does not claim that an MBA has already been completed.
 
 The `team-lead` profile gives existing coordination, architecture, and mentoring
 paragraphs earlier positions. It changes the presentation, not historical job

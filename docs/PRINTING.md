@@ -14,9 +14,9 @@ The exact labels vary by browser/OS. CSS supplies the A4 page size and internal
 margins. Prefer a desktop browser for the final export; mobile screen layout is
 for reading, not an accurate A4 preview.
 
-**Original example only:** use **99% scale** for
-`Single file example - Alisa Petrova CV/cv.html`. This preserves the original
-file byte-for-byte while avoiding an extra page caused by a small overflow at
+**Single-file example only:** use **99% scale** for
+`Single file example - Alisa Petrova CV/cv.html`. This preserves its original
+layout while avoiding an extra page caused by a small overflow at
 100% in the tested Chrome version. The structured Classic theme adjusts a gap
 slightly and fits at **100%**, without changing the CV text.
 

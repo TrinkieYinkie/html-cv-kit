@@ -74,8 +74,8 @@ stage to a local copy of `checks.json`, with a timeout such as 180 seconds:
 Run that configuration through `tools/lifecycle.py`. The browser check processes
 files one at a time, writes temporary PDFs and a geometry report to `.qa/rendered`,
 and closes the browser. It checks all eight profile/theme exports plus the two
-single-file CVs, without network access. The unchanged historical single-file
-example retains its original desktop layout; it is excluded from new mobile rules.
+single-file CVs, without network access. The single-file example retains its
+original desktop layout; it is excluded from new mobile rules.
 
 Inspect actual PDF pages as images, not just extracted text or DOM geometry.
 Confirm two A4 pages, no clipped text, clear footers, readable type, working links,
