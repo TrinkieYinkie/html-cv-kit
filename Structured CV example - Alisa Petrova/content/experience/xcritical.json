@@ -1,0 +1,25 @@
+{
+  "company": "XCritical",
+  "period": "2021 — 2022",
+  "parts": {
+    "main": {
+      "position": "",
+      "meta": ""
+    }
+  },
+  "paragraphs": [
+    "Trainee C# Developer, contributing to development tasks."
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0
+      ]
+    },
+    "team-lead": {
+      "main": [
+        0
+      ]
+    }
+  }
+}

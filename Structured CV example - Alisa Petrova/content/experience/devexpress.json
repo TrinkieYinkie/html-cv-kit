@@ -1,0 +1,25 @@
+{
+  "company": "DevExpress",
+  "period": "02.2022 — 04.2022",
+  "parts": {
+    "main": {
+      "position": "",
+      "meta": ""
+    }
+  },
+  "paragraphs": [
+    "Also known as DeveloperSoft. Developed PDF bookmark functionality using C# / WPF. The company exited the Russian market."
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0
+      ]
+    },
+    "team-lead": {
+      "main": [
+        0
+      ]
+    }
+  }
+}

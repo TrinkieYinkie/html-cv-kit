@@ -1,0 +1,25 @@
+{
+  "company": "[First employer]",
+  "period": "[MM.YYYY — MM.YYYY / Present]",
+  "parts": {
+    "main": {
+      "position": "",
+      "meta": ""
+    }
+  },
+  "paragraphs": [
+    "[Describe the business context, your actual role, and the scope you owned.]"
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0
+      ]
+    },
+    "team-lead": {
+      "main": [
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "company": "[Most recent employer]",
+  "period": "[MM.YYYY — MM.YYYY / Present]",
+  "parts": {
+    "main": {
+      "position": "[Official role title]",
+      "meta": "[Industry / product / context; explain overlapping roles if relevant]"
+    }
+  },
+  "paragraphs": [
+    "[Describe the business context, your actual role, and the scope you owned.]",
+    "[Describe a meaningful problem, the action you took, and a verified result. Use a number only if you can support it.]",
+    "[Describe an architectural, process, or product improvement and why it mattered.]",
+    "[Describe collaboration with customers, stakeholders, or other teams.]",
+    "[Describe mentoring, coordination, or leadership accurately. Distinguish it from formal line management.]"
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "team-lead": {
+      "main": [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    }
+  }
+}

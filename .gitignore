@@ -1,0 +1,6 @@
+.cv-build.lock
+.validation.lock
+.validation.json
+.qa/
+*.tmp
+__pycache__/

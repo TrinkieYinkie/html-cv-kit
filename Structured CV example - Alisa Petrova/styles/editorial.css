@@ -1,0 +1,29 @@
+/* Editorial: a teal accent, serif name, and quiet sidebar. */
+@font-face {
+  font-family:"Lora";
+  src:url("../fonts/Lora-Variable.ttf") format("truetype");
+  font-style:normal;
+  font-weight:400 700;
+  font-display:swap;
+}
+:root { --accent:#14635e; --text:#202f36; --muted:#546970; --line:#cdddda;
+  --chip-bg:#edf4f2; --chip-border:#dae8e4; --note-bg:#f0f6f4; }
+.sheet { border-top:5px solid var(--accent); padding-top:11mm; }
+.name { font-family:"Lora",Georgia,serif; font-weight:500; font-size:40px; letter-spacing:-1.2px; margin-left:0; color:var(--accent); }
+.header-line { gap:20px; }
+.role-block { border-left-color:var(--accent); }
+.title { font-weight:700; font-size:15px; }
+.section h2 { font-size:12px; letter-spacing:1.8px; color:var(--accent); }
+.note { border:0; border-left:3px solid var(--accent); border-radius:0; padding:12px 14px; }
+.grid { gap:9mm; grid-template-columns:1.35fr .85fr; }
+aside { border-left:1px solid var(--line); padding-left:14px; }
+.chip { border-radius:4px; border-color:transparent; }
+.company { color:var(--accent); }
+.period { font-size:11px; }
+.role { margin-bottom:19px; }
+.page-footer { color:var(--accent); letter-spacing:1px; }
+@media screen and (max-width:820px) {
+  .grid { grid-template-columns:1fr; }
+  aside { border-left:0; border-top:1px solid var(--line); padding-left:0; padding-top:20px; }
+  .name { font-size:34px; white-space:normal; }
+}

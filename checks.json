@@ -1,0 +1,6 @@
+[
+  {"name":"Build all presets", "timeout":60, "command":["node","build.mjs","--all"]},
+  {"name":"Builder contracts", "timeout":30, "command":["node","tests/contracts.mjs"]},
+  {"name":"Content fidelity and template separation", "timeout":20, "command":["python","tests/content.py"]},
+  {"name":"Process-tree failure paths", "timeout":30, "command":["python","tests/lifecycle_cases.py"]}
+]

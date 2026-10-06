@@ -1,0 +1,43 @@
+{
+  "company": "Revvy",
+  "period": "05.2023 — 12.2025",
+  "parts": {
+    "main": {
+      "position": "Senior Backend Developer · Owner of Business-Critical Messaging Service",
+      "meta": "SaaS · Service ownership · B2B integrations · Concurrent with CRS through October 2025"
+    }
+  },
+  "paragraphs": [
+    "Held end-to-end ownership of a business-critical messaging service supporting approximately 4,000 concurrent instances and around 1,000,000 messages per day.",
+    "Took over a minimally functional service and redesigned its architecture, data storage, and scaling approach. Fixed memory leaks in the Baileys open-source library and reworked message processing with controlled retries, batching, and workers.",
+    "Moved message caching from MongoDB to Redis, relieving database overload and restoring stable operation.",
+    "Led integrations with Vetmanager, Renovation, Medflex, and YClients. Communicated directly with B2B clients to clarify requirements, resolve edge cases, and align integration behaviour with business needs.",
+    "Implemented complex authorisation for closed and undocumented APIs, including JWT, cookie-based authentication, and refresh-token behaviour simulation.",
+    "Worked with Entity Framework migrations and data transfers; MS SQL indexing, query optimisation, and transactions; background jobs and middleware.",
+    "Developed a standalone service to collect ratings and reviews from VKontakte groups using a headless browser (Puppeteer)."
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "team-lead": {
+      "main": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "company": "Alfa-Bank",
+  "period": "01.2026 — Present",
+  "parts": {
+    "main": {
+      "position": "Senior Systems Analyst",
+      "meta": "Banking · Brokerage technology · Cross-functional delivery"
+    }
+  },
+  "paragraphs": [
+    "Apply my engineering background to systems analysis, product planning, architecture, and coordination of iOS, Android, and backend development for corporate brokerage services.",
+    "Coordinate a cross-functional development team of 7, assigning and clarifying tasks, planning delivery, and aligning priorities across mobile and backend components.",
+    "Act as the link between business stakeholders and developers, clarifying requirements, managing expectations, and translating business needs into product and technical decisions.",
+    "Define product behaviour with business stakeholders and translate it into requirements and API contracts, accounting for technical constraints, dependencies, and delivery risks.",
+    "Support architectural and system-design decisions and use AI-assisted workflows for analysis and documentation."
+  ],
+  "variants": {
+    "mba": {
+      "main": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "team-lead": {
+      "main": [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    }
+  }
+}

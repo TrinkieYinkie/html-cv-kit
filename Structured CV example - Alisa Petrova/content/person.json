@@ -1,0 +1,26 @@
+{
+  "name": "Alisa Petrova",
+  "contactHeading": "CONTACTS",
+  "contacts": [
+    {
+      "label": "Phone",
+      "value": "+7 (981) 736-73-80"
+    },
+    {
+      "label": "Email",
+      "value": "ArcticBeaver@yandex.ru",
+      "href": "mailto:ArcticBeaver@yandex.ru"
+    },
+    {
+      "label": "Telegram",
+      "value": "t.me/ArcticBeaver",
+      "href": "https://t.me/ArcticBeaver"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/Arctic-beaver",
+      "href": "https://github.com/Arctic-beaver"
+    }
+  ],
+  "workFormat": "Work format: Remote"
+}

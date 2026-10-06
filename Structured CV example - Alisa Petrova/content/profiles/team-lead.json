@@ -1,0 +1,119 @@
+{
+  "label": "Team Lead / engineering leadership",
+  "suggestedHeadline": "Team Lead | Engineering & Delivery",
+  "subtitle": "Engineering leadership · Product ownership · Business–technology strategy · International experience",
+  "note": "Technology professional with over four years of full-time experience across software engineering, enterprise systems,\n                product development, and technical leadership. My career has progressed from hands-on engineering\n                into roles focused on technical leadership, product development, stakeholder collaboration, and delivery.",
+  "summary": [
+    "I currently coordinate a seven-person team developing a mobile brokerage product for corporate clients at Alfa-Bank. Earlier roles included business-critical service ownership, mentoring, and direct B2B client communication.",
+    "I combine a strong technical background with experience coordinating teams, defining product behaviour with business stakeholders, and translating business goals into delivery plans across enterprise environments and startups.",
+    "I am developing my expertise at the intersection of technology, artificial intelligence, business strategy, and commercial leadership to address strategic business challenges and support technology-driven growth."
+  ],
+  "sections": {
+    "leadership": {
+      "heading": "LEADERSHIP & BUSINESS",
+      "type": "chips",
+      "items": [
+        "Technical Leadership",
+        "Cross-functional Delivery",
+        "Mentoring",
+        "Product Ownership",
+        "Stakeholder Management",
+        "Business Requirements",
+        "Delivery Planning",
+        "B2B Client Communication",
+        "Planning & Prioritisation",
+        "International Collaboration"
+      ]
+    },
+    "technology": {
+      "heading": "TECHNOLOGY",
+      "type": "chips",
+      "items": [
+        "C# / .NET",
+        "Node.js / TypeScript",
+        "React / Angular",
+        "System Architecture",
+        "REST APIs & Integrations",
+        "Distributed Systems",
+        "SQL / NoSQL",
+        "Azure",
+        "AI-assisted Development"
+      ]
+    },
+    "working": {
+      "heading": "WAYS OF WORKING",
+      "type": "chips",
+      "items": [
+        "Agile / Scrum",
+        "Jira / Azure DevOps",
+        "Confluence / Wiki",
+        "Miro / FigJam",
+        "Architecture & Process Modelling",
+        "AI Tools"
+      ]
+    },
+    "competencies": {
+      "heading": "KEY COMPETENCIES",
+      "type": "text",
+      "items": [
+        "Technology strategy and product delivery",
+        "Business–technology translation",
+        "Cross-functional team coordination",
+        "Stakeholder alignment and requirement clarification",
+        "Product requirements and delivery planning",
+        "Architecture and system design",
+        "B2B client communication and integrations",
+        "Mentoring and team development",
+        "International collaboration",
+        "AI-enabled analysis and delivery"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "heading": "EXPERIENCE",
+      "experience": [
+        {
+          "file": "alfa-bank",
+          "part": "main"
+        },
+        {
+          "file": "crs",
+          "part": "intro"
+        }
+      ],
+      "sidebar": [
+        "leadership",
+        "technology",
+        "working"
+      ]
+    },
+    {
+      "heading": "EXPERIENCE — CONTINUED",
+      "experience": [
+        {
+          "file": "crs",
+          "part": "continued"
+        },
+        {
+          "file": "revvy",
+          "part": "main"
+        },
+        {
+          "file": "devexpress",
+          "part": "main"
+        },
+        {
+          "file": "xcritical",
+          "part": "main"
+        }
+      ],
+      "sidebar": [
+        "competencies",
+        "education",
+        "contacts",
+        "languages"
+      ]
+    }
+  ]
+}

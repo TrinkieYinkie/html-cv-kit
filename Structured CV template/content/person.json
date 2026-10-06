@@ -1,0 +1,21 @@
+{
+  "name": "Your Name",
+  "contactHeading": "CONTACTS",
+  "contacts": [
+    {
+      "label": "Email",
+      "value": "you@example.com",
+      "href": "mailto:you@example.com"
+    },
+    {
+      "label": "Portfolio",
+      "value": "example.com",
+      "href": "https://example.com"
+    },
+    {
+      "label": "Location",
+      "value": "[City / Country]"
+    }
+  ],
+  "workFormat": "[Preferred work format]"
+}

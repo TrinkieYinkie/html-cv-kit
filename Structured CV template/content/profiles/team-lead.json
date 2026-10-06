@@ -1,0 +1,96 @@
+{
+  "label": "Team Lead / engineering leadership",
+  "suggestedHeadline": "[Target engineering leadership role]",
+  "subtitle": "[Strength one] · [Strength two] · [Relevant domain]",
+  "note": "[Introduce your professional background, relevant scope, and the value you bring. Avoid unsupported seniority or years-of-experience claims.]",
+  "summary": [
+    "[Connect your background to the target role or programme.]",
+    "[Summarise your current or most relevant responsibilities.]",
+    "[Explain the direction you want to develop and why it fits this opportunity.]"
+  ],
+  "sections": {
+    "leadership": {
+      "heading": "LEADERSHIP & BUSINESS",
+      "type": "chips",
+      "items": [
+        "[Relevant skill or strength]",
+        "[Another supported skill]",
+        "[A method or capability you can demonstrate]"
+      ]
+    },
+    "technology": {
+      "heading": "TECHNOLOGY",
+      "type": "chips",
+      "items": [
+        "[Relevant skill or strength]",
+        "[Another supported skill]",
+        "[A method or capability you can demonstrate]"
+      ]
+    },
+    "working": {
+      "heading": "WAYS OF WORKING",
+      "type": "chips",
+      "items": [
+        "[Relevant skill or strength]",
+        "[Another supported skill]",
+        "[A method or capability you can demonstrate]"
+      ]
+    },
+    "competencies": {
+      "heading": "KEY COMPETENCIES",
+      "type": "text",
+      "items": [
+        "[Relevant skill or strength]",
+        "[Another supported skill]",
+        "[A method or capability you can demonstrate]"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "heading": "EXPERIENCE",
+      "experience": [
+        {
+          "file": "recent-role",
+          "part": "main"
+        },
+        {
+          "file": "previous-role",
+          "part": "intro"
+        }
+      ],
+      "sidebar": [
+        "leadership",
+        "technology",
+        "working"
+      ]
+    },
+    {
+      "heading": "EXPERIENCE — CONTINUED",
+      "experience": [
+        {
+          "file": "previous-role",
+          "part": "continued"
+        },
+        {
+          "file": "parallel-or-other-role",
+          "part": "main"
+        },
+        {
+          "file": "earlier-role",
+          "part": "main"
+        },
+        {
+          "file": "first-role",
+          "part": "main"
+        }
+      ],
+      "sidebar": [
+        "competencies",
+        "education",
+        "contacts",
+        "languages"
+      ]
+    }
+  ]
+}

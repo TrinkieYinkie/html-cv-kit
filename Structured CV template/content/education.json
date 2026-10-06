@@ -1,0 +1,13 @@
+{
+  "heading": "EDUCATION",
+  "items": [
+    {
+      "institution": "[Institution name]",
+      "details": "[Qualification / subject] · [Start–end dates]"
+    },
+    {
+      "institution": "[Optional additional education]",
+      "details": "[Describe completion status accurately, or remove this item]"
+    }
+  ]
+}

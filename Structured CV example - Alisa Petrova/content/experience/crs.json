@@ -1,0 +1,48 @@
+{
+  "company": "Combined Ratio Solutions (USA)",
+  "period": "05.2022 — 10.2025",
+  "parts": {
+    "intro": {
+      "position": "Software Developer / Business & Systems Analyst",
+      "meta": "US-based company · Enterprise insurance platform"
+    },
+    "continued": {
+      "position": "Software Development & Systems Analysis · continued",
+      "meta": ""
+    }
+  },
+  "paragraphs": [
+    "Progressed from junior development to senior engineering responsibilities and then business and systems analysis on an enterprise insurance platform.",
+    "Redesigned JSON data exchange across the backend, frontend, and Azure Functions, reducing loading time for complex insurance policies from approximately 20 to 5 seconds.",
+    "Contributed to legacy-system decomposition into microservices: dependency analysis, service boundaries, contract discussions, and migration planning.",
+    "Designed REST APIs and ensured backward compatibility between projects developed by different teams.",
+    "Supported the team lead in architectural discussions, task decomposition, and sprint planning; conducted code reviews and mentored junior developers.",
+    "Collaborated regularly with US-based product managers and business stakeholders on requirements, delivery planning, and cross-team technical decisions. Working language — English."
+  ],
+  "variants": {
+    "mba": {
+      "intro": [
+        0,
+        1
+      ],
+      "continued": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "team-lead": {
+      "intro": [
+        0,
+        4
+      ],
+      "continued": [
+        1,
+        2,
+        3,
+        5
+      ]
+    }
+  }
+}
