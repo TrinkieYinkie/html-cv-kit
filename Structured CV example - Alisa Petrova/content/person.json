@@ -3,13 +3,14 @@
   "contactHeading": "CONTACTS",
   "contacts": [
     {
-      "label": "Phone",
-      "value": "+7 (981) 736-73-80"
+      "label": "Phone / WhatsApp",
+      "value": "+995595512072",
+      "href": "https://wa.me/995595512072"
     },
     {
       "label": "Email",
-      "value": "ArcticBeaver@yandex.ru",
-      "href": "mailto:ArcticBeaver@yandex.ru"
+      "value": "TrinkieYinkie@gmail.com",
+      "href": "mailto:TrinkieYinkie@gmail.com"
     },
     {
       "label": "Telegram",
@@ -17,9 +18,14 @@
       "href": "https://t.me/ArcticBeaver"
     },
     {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/trinkieyinkie",
+      "href": "https://www.linkedin.com/in/trinkieyinkie/"
+    },
+    {
       "label": "GitHub",
-      "value": "github.com/Arctic-beaver",
-      "href": "https://github.com/Arctic-beaver"
+      "value": "github.com/TrinkieYinkie",
+      "href": "https://github.com/TrinkieYinkie"
     }
   ],
   "workFormat": "Work format: Remote"
