@@ -69,3 +69,11 @@ without staging unrelated pre-existing changes or private notes in this public k
   Build contracts, content selections and exact legacy text fidelity passed.
 - Private career facts and copy-ready LinkedIn recommendations are maintained in
   the containing career repository, outside this public toolkit.
+- PDF stage complete: four PDFs contain exactly two A4 pages each; every selected
+  experience paragraph appears on its intended page and all contact links work.
+  All eight pages were rendered with Poppler and visually reviewed.
+- Classic initially exceeded page two by 14.45 CSS pixels. Omitting one
+  low-level authentication paragraph from the new commercial selections resolved
+  this; font sizes, theme CSS and all historical selections remain unchanged.
+- All fourteen HTML files pass offline browser geometry checks; the responsive
+  files fit narrow light and dark screens. No task-owned processes or locks remain.

@@ -41,11 +41,13 @@ try {
     }));
     const scale = id === 'single-example' ? 0.99 : 1;
     await page.pdf({path:path.join(output,`${id}.pdf`),scale,preferCSSPageSize:true,printBackground:true,displayHeaderFooter:false,timeout:20_000});
-    let mobile;
+    const mobile=[];
     if(id!=='single-example') {
       await page.setViewportSize({width:390,height:500});
-      await page.emulateMedia({media:'screen',colorScheme:'dark'});
-      mobile=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,background:getComputedStyle(document.body).backgroundColor}));
+      for (const colorScheme of ['light','dark']) {
+        await page.emulateMedia({media:'screen',colorScheme});
+        mobile.push({colorScheme,...await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,background:getComputedStyle(document.body).backgroundColor}))});
+      }
     }
     const entry={id,scale,geometry,mobile};report.push(entry);
     console.log(JSON.stringify(entry));
@@ -65,7 +67,7 @@ try {
   if(!longHeader)throw new Error('Long name/headline overflow');
   if(network.length)throw new Error(`Export made network requests: ${network.join(', ')}`);
   fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify(report,null,2));
-  const failed=report.filter(r=>r.geometry.length!==2 || r.geometry.some(g=>g.height*r.scale>1124||g.footerGap<6||g.overflow.length) || (r.mobile&&r.mobile.scroll>r.mobile.width));
+  const failed=report.filter(r=>r.geometry.length!==2 || r.geometry.some(g=>g.height*r.scale>1124||g.footerGap<6||g.overflow.length) || r.mobile.some(m=>m.scroll>m.width));
   if(failed.length)throw new Error(`Layout needs adjustment: ${failed.map(x=>x.id).join(', ')}`);
-  console.log(`PASS: ${files.length} offline exports, print geometry, footer clearance, and narrow dark-screen overflow`);
+  console.log(`PASS: ${files.length} offline exports, print geometry, footer clearance, and narrow light/dark-screen overflow`);
 } finally { await browser.close(); }
