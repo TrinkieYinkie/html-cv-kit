@@ -1,0 +1,100 @@
+{
+  "label": "Technology Partnerships & B2B Solutions",
+  "suggestedHeadline": "Technology Partnerships & B2B Solutions",
+  "subtitle": "Partner collaboration | B2B integrations | Business and engineering alignment",
+  "note": "Software engineering and business analysis background, with customer-facing presales experience, external-platform collaboration and ownership of business-critical systems.",
+  "summary": [
+    "I connect business requirements with practical technology solutions, coordinate customers and engineering teams, and stay involved from early discussions through implementation and subsequent paid enhancements. Now focused on technology partnerships and B2B solutions roles."
+  ],
+  "sections": {
+    "commercial": {
+      "heading": "Client & partner work",
+      "type": "chips",
+      "items": [
+        "Technical Partner Collaboration",
+        "B2B Integrations",
+        "Needs Discovery",
+        "Solution Design",
+        "Stakeholder Management",
+        "Technical Presales",
+        "Scope & Timeline Alignment",
+        "International Collaboration"
+      ]
+    },
+    "technology": {
+      "heading": "Technical foundation",
+      "type": "chips",
+      "items": [
+        "C# / .NET",
+        "Node.js / TypeScript",
+        "REST APIs & Integrations",
+        "System Architecture",
+        "SQL / MongoDB / Redis",
+        "Azure",
+        "React / Angular",
+        "AI-assisted Development"
+      ]
+    },
+    "practice": {
+      "heading": "Engineering practice",
+      "type": "text",
+      "items": [
+        "Production troubleshooting and reliability",
+        "API contracts and compatibility",
+        "Requirements and acceptance criteria",
+        "Code review and mentoring",
+        "Performance optimisation"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "heading": "Experience",
+      "experience": [
+        {
+          "file": "alfa-bank",
+          "part": "commercial"
+        },
+        {
+          "file": "revvy",
+          "part": "commercial"
+        }
+      ],
+      "sidebar": [
+        "contacts",
+        "commercial"
+      ]
+    },
+    {
+      "heading": "Experience - continued",
+      "experience": [
+        {
+          "file": "revvy",
+          "part": "technical"
+        },
+        {
+          "file": "crs",
+          "part": "commercial"
+        },
+        {
+          "file": "independent",
+          "part": "main"
+        },
+        {
+          "file": "devexpress",
+          "part": "main"
+        },
+        {
+          "file": "xcritical",
+          "part": "main"
+        }
+      ],
+      "sidebar": [
+        "technology",
+        "practice",
+        "education",
+        "languages"
+      ]
+    }
+  ]
+}

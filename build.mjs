@@ -14,10 +14,10 @@ node build.mjs "Structured CV template/cv.html" --profile team-lead --theme edit
 node build.mjs "Structured CV template/cv.html" --headline "Your target role" --out "exports/application.html"
 node build.mjs --all
 
-Options: --profile mba|team-lead  --theme classic|editorial (or a local theme name)
+Options: --profile <local profile name>  --theme classic|editorial (or a local theme name)
          --headline "..." overrides the headline in the selected source HTML
          --out "...html" (default: exports/<profile>-<theme>.html inside that project)
---all rebuilds the eight gallery exports using the recommended profile headlines.
+--all rebuilds every supplied profile in both themes using its recommended headline.
 Single-file CVs are already ready to share and do not need this builder.`;
 if (!args.length || args.includes('--help')) { console.log(help); process.exit(0); }
 
@@ -27,7 +27,9 @@ try {
     if (args.length !== 1) throw new Error('--all cannot be combined with other arguments');
     jobs = [];
     for (const folder of ['Structured CV example - Alisa Petrova', 'Structured CV template']) {
-      for (const profile of ['mba', 'team-lead']) {
+      const profiles = fs.readdirSync(path.join(root, folder, 'content/profiles'))
+        .filter(name => name.endsWith('.json')).sort().map(name => name.slice(0, -5));
+      for (const profile of profiles) {
         const preset = JSON.parse(fs.readFileSync(path.join(root, folder, 'content/profiles', `${profile}.json`), 'utf8'));
         for (const theme of ['classic', 'editorial']) jobs.push({ source: path.join(root, folder, 'cv.html'), profile, theme,
           headline: preset.suggestedHeadline, out: path.join(root, folder, 'exports', `${profile}-${theme}.html`) });

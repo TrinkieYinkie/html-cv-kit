@@ -5,6 +5,14 @@
     "main": {
       "position": "Senior Backend Developer · Owner of Business-Critical Messaging Service",
       "meta": "SaaS · Service ownership · B2B integrations · Concurrent with CRS through October 2025"
+    },
+    "commercial": {
+      "position": "Senior Backend Developer",
+      "meta": "B2B presales, integrations and client support | Concurrent with CRS through Oct 2025"
+    },
+    "technical": {
+      "position": "Engineering ownership | continued",
+      "meta": "Messaging reliability and external systems"
     }
   },
   "paragraphs": [
@@ -14,7 +22,12 @@
     "Led integrations with Vetmanager, Renovation, Medflex, and YClients. Communicated directly with B2B clients to clarify requirements, resolve edge cases, and align integration behaviour with business needs.",
     "Implemented complex authorisation for closed and undocumented APIs, including JWT, cookie-based authentication, and refresh-token behaviour simulation.",
     "Worked with Entity Framework migrations and data transfers; MS SQL indexing, query optimisation, and transactions; background jobs and middleware.",
-    "Developed a standalone service to collect ratings and reviews from VKontakte groups using a headless browser (Puppeteer)."
+    "Developed a standalone service to collect ratings and reviews from VKontakte groups using a headless browser (Puppeteer).",
+    "Supported B2B sales to healthcare and veterinary clients through needs discovery, product demonstrations and discussions of solution feasibility before purchase.",
+    "Owned integrations with Renovatio and Vetmanager, coordinating directly with customer stakeholders and external platform teams to align requirements and resolve integration constraints.",
+    "Scoped enhancements, agreed delivery timelines and pre-purchase proof-of-concept boundaries, and coordinated next steps with clients and the product manager.",
+    "Continued as the technical point of contact after purchase, helping define additional paid features. Upsell functionality initially deferred in favour of core workflows was subsequently implemented.",
+    "Through discovery and product demonstrations, helped healthcare and veterinary clients prioritise appointment notifications and related workflows for their initial purchase; worked with a branch manager on a medical-network pilot."
   ],
   "variants": {
     "mba": {
@@ -37,6 +50,34 @@
         4,
         5,
         6
+      ]
+    },
+    "partnerships": {
+      "commercial": [
+        8,
+        7,
+        9,
+        10,
+        0
+      ],
+      "technical": [
+        1,
+        2,
+        4
+      ]
+    },
+    "b2b-sales": {
+      "commercial": [
+        11,
+        8,
+        9,
+        10,
+        0
+      ],
+      "technical": [
+        1,
+        2,
+        4
       ]
     }
   }

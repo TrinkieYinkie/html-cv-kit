@@ -10,7 +10,8 @@ const output = path.resolve('.qa/rendered');
 fs.mkdirSync(output, {recursive:true});
 const files = [];
 for (const [folder, prefix] of [['Structured CV example - Alisa Petrova','example'],['Structured CV template','template']]) {
-  for (const profile of ['mba','team-lead']) for (const theme of ['classic','editorial']) {
+  const profiles=fs.readdirSync(path.resolve(folder,'content/profiles')).filter(name=>name.endsWith('.json')).sort().map(name=>name.slice(0,-5));
+  for (const profile of profiles) for (const theme of ['classic','editorial']) {
     files.push({id:`${prefix}-${profile}-${theme}`,file:path.resolve(folder,'exports',`${profile}-${theme}.html`)});
   }
 }
@@ -66,5 +67,5 @@ try {
   fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify(report,null,2));
   const failed=report.filter(r=>r.geometry.length!==2 || r.geometry.some(g=>g.height*r.scale>1124||g.footerGap<6||g.overflow.length) || (r.mobile&&r.mobile.scroll>r.mobile.width));
   if(failed.length)throw new Error(`Layout needs adjustment: ${failed.map(x=>x.id).join(', ')}`);
-  console.log('PASS: ten offline exports, print geometry, footer clearance, and narrow dark-screen overflow');
+  console.log(`PASS: ${files.length} offline exports, print geometry, footer clearance, and narrow dark-screen overflow`);
 } finally { await browser.close(); }

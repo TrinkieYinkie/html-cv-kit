@@ -1,0 +1,100 @@
+{
+  "label": "B2B Sales & Solutions",
+  "suggestedHeadline": "B2B Sales & Solutions",
+  "subtitle": "Consultative selling | Technical presales | Enterprise software",
+  "note": "Customer-facing technology professional with B2B presales and ongoing client-support experience, backed by software engineering, systems analysis and production ownership.",
+  "summary": [
+    "At Revvy, I helped clients assess product fit before purchase, demonstrated capabilities, agreed feasible delivery scope and owned integrations. Continued collaboration led to additional paid features. Now focused on consultative B2B sales for software and AI products."
+  ],
+  "sections": {
+    "commercial": {
+      "heading": "Client & sales work",
+      "type": "chips",
+      "items": [
+        "Consultative Selling",
+        "Technical Presales",
+        "Needs Discovery",
+        "Product Demonstrations",
+        "Solution Scoping",
+        "Technical Account Support",
+        "Stakeholder Management",
+        "International Collaboration"
+      ]
+    },
+    "technology": {
+      "heading": "Technical foundation",
+      "type": "chips",
+      "items": [
+        "C# / .NET",
+        "Node.js / TypeScript",
+        "REST APIs & Integrations",
+        "System Architecture",
+        "SQL / MongoDB / Redis",
+        "Azure",
+        "React / Angular",
+        "AI-assisted Development"
+      ]
+    },
+    "practice": {
+      "heading": "Engineering practice",
+      "type": "text",
+      "items": [
+        "Production troubleshooting and reliability",
+        "API contracts and compatibility",
+        "Requirements and acceptance criteria",
+        "Code review and mentoring",
+        "Performance optimisation"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "heading": "Experience",
+      "experience": [
+        {
+          "file": "alfa-bank",
+          "part": "commercial"
+        },
+        {
+          "file": "revvy",
+          "part": "commercial"
+        }
+      ],
+      "sidebar": [
+        "contacts",
+        "commercial"
+      ]
+    },
+    {
+      "heading": "Experience - continued",
+      "experience": [
+        {
+          "file": "revvy",
+          "part": "technical"
+        },
+        {
+          "file": "crs",
+          "part": "commercial"
+        },
+        {
+          "file": "independent",
+          "part": "main"
+        },
+        {
+          "file": "devexpress",
+          "part": "main"
+        },
+        {
+          "file": "xcritical",
+          "part": "main"
+        }
+      ],
+      "sidebar": [
+        "technology",
+        "practice",
+        "education",
+        "languages"
+      ]
+    }
+  ]
+}

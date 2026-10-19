@@ -3,6 +3,16 @@
 A CV you can read, edit, keep in Git, and turn into a PDF. Start with one HTML
 file. Move to separate content and styles whenever that becomes useful.
 
+## About the author
+
+I'm **Alisa Petrova**. My background combines software engineering, business
+analysis, B2B presales and integration delivery. I'm interested in technology
+partnerships and consultative B2B sales, building on that experience.
+
+**My two-page CV:** [Partnerships and B2B Solutions](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/partnerships-editorial.pdf)
+or [B2B Sales and Solutions](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/b2b-sales-editorial.pdf).
+You can also find me on [LinkedIn](https://www.linkedin.com/in/trinkieyinkie/).
+
 ## Just want to try it? Start here.
 
 Not in the mood to figure out the folder structure? Fair enough. You don't need
@@ -63,6 +73,8 @@ You can view these directly on GitHub before downloading or editing anything:
 | Single-file CV / Technical Product Owner | [PDF](Single%20file%20example%20-%20Alisa%20Petrova%20CV/cv.pdf) | — |
 | Technical Product Owner / MBA profile | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/mba-editorial.pdf) |
 | Team Lead / engineering leadership | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/team-lead-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/team-lead-editorial.pdf) |
+| Technology Partnerships / B2B Solutions | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/partnerships-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/partnerships-editorial.pdf) |
+| B2B Sales / Solutions | [Classic](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/b2b-sales-classic.pdf) | [Editorial](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/b2b-sales-editorial.pdf) |
 
 These are finished examples. PDF files are snapshots and are not automatically
 refreshed by the HTML builder; print an updated PDF after changing your CV.
@@ -77,7 +89,7 @@ emphasise, and try a different visual style without rewriting everything.
 | --- | --- |
 | [Single file example - Alisa Petrova CV](Single%20file%20example%20-%20Alisa%20Petrova%20CV) | Based on the 3 October 2026 CV, with the target headline updated to Technical Product Owner. |
 | [Single file template - your CV](Single%20file%20template%20-%20your%20CV) | The quickest way to make your own CV with an AI assistant. |
-| [Structured CV example - Alisa Petrova](Structured%20CV%20example%20-%20Alisa%20Petrova) | A complete example with two profiles and two styles. |
+| [Structured CV example - Alisa Petrova](Structured%20CV%20example%20-%20Alisa%20Petrova) | A complete example with four profiles and two styles. |
 | [Structured CV template](Structured%20CV%20template) | The same structure with clearly marked placeholders for your own facts. |
 
 The single-file folders are independent: each `cv.html` contains its own styles.
@@ -179,7 +191,28 @@ Each experience file contains shared facts plus paragraph selections:
 The numbers are paragraph positions, starting at **0**. You can also add
 alternative truthful descriptions to `paragraphs` and select different ones for
 each profile. Review the facts when doing so. Adding/removing paragraphs means
-updating these index lists too. The supplied example only reorders existing text.
+updating the affected index lists too. The `mba` and `team-lead` profiles preserve
+their original wording. The commercial profiles select alternative descriptions
+and additional facts confirmed by the author on 19 October 2026.
+
+The **`partnerships`** profile emphasises external-platform collaboration,
+integration ownership and business alignment. **`b2b-sales`** emphasises customer
+discovery, product demonstrations, feasible scope and ongoing paid enhancements.
+Both retain engineering results and historical employment dates. Their headlines
+describe target roles, not past sales or partnerships job titles. Contacts appear
+on page one; technical depth, education and selected product work continue on page
+two. Neither profile claims a revenue quota, sole deal closure or signed alliances.
+
+These two profiles are supplied with the personal example. To preview or edit
+them, use `partnerships.html` or `b2b-sales.html` with the matching profile flag:
+
+```sh
+node build.mjs "Structured CV example - Alisa Petrova/partnerships.html" --profile partnerships --theme editorial
+node build.mjs "Structured CV example - Alisa Petrova/b2b-sales.html" --profile b2b-sales --theme editorial
+```
+
+The neutral structured template retains its two general-purpose profiles. A new
+profile there should select the template owner's own facts.
 
 Profile files choose summary paragraphs, skill groups, the experience order, and
 which parts go on each page. The longer previous role demonstrates `intro` and
@@ -221,14 +254,16 @@ You can also duplicate `cv.html` as `company-name.html` **inside the same struct
 folder**, change its headline, and pass that file to the builder. It will use the
 same adjacent content, layout, and styles.
 
-Rebuild all eight ready-made combinations:
+Rebuild all twelve ready-made combinations (eight personal, four neutral):
 
 ```sh
 node build.mjs --all
 ```
 
 This intentionally uses the profiles' suggested headlines and replaces the
-generated gallery files. It does not update either independent single-file CV.
+generated gallery files. It discovers profiles in each project's `content/profiles`
+folder and builds each in both supplied themes. It does not update either
+independent single-file CV or regenerate PDFs.
 Use the selected-file command for your actual application headline.
 
 The exporter renders the selected content, inlines CSS, embeds referenced local

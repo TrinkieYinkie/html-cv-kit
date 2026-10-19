@@ -1,0 +1,28 @@
+{
+  "company": "Independent product work",
+  "period": "Selected projects",
+  "parts": {
+    "main": {
+      "position": "Product definition and AI-assisted delivery",
+      "meta": ""
+    }
+  },
+  "paragraphs": [
+    "Defined product requirements, UX, architecture and acceptance criteria for desktop applications; AI coding agents produced the implementation under my direction.",
+    "WritersStudio, a local-first writing workspace, reached public Windows beta in October 2026. Also created an HTML CV toolkit with reusable templates and guidance for non-developers."
+  ],
+  "variants": {
+    "partnerships": {
+      "main": [
+        0,
+        1
+      ]
+    },
+    "b2b-sales": {
+      "main": [
+        0,
+        1
+      ]
+    }
+  }
+}

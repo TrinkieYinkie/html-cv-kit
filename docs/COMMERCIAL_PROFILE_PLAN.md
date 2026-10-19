@@ -64,3 +64,8 @@ without staging unrelated pre-existing changes or private notes in this public k
 ## Progress
 
 - Planning and read-only inspection complete.
+- Content stage complete: two commercial profiles, alternative role descriptions,
+  source entry files, four HTML exports, profile discovery and author documentation.
+  Build contracts, content selections and exact legacy text fidelity passed.
+- Private career facts and copy-ready LinkedIn recommendations are maintained in
+  the containing career repository, outside this public toolkit.

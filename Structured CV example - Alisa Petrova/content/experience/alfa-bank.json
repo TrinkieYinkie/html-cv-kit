@@ -5,6 +5,10 @@
     "main": {
       "position": "Senior Systems Analyst",
       "meta": "Banking · Brokerage technology · Cross-functional delivery"
+    },
+    "commercial": {
+      "position": "Senior Systems Analyst",
+      "meta": "Corporate brokerage technology | Business alignment and delivery"
     }
   },
   "paragraphs": [
@@ -12,7 +16,12 @@
     "Coordinate a cross-functional development team of 7, assigning and clarifying tasks, planning delivery, and aligning priorities across mobile and backend components.",
     "Act as the link between business stakeholders and developers, clarifying requirements, managing expectations, and translating business needs into product and technical decisions.",
     "Define product behaviour with business stakeholders and translate it into requirements and API contracts, accounting for technical constraints, dependencies, and delivery risks.",
-    "Support architectural and system-design decisions and use AI-assisted workflows for analysis and documentation."
+    "Support architectural and system-design decisions and use AI-assisted workflows for analysis and documentation.",
+    "Work with business stakeholders to define corporate brokerage workflows, evaluate technical constraints and agree on product behaviour across mobile and backend systems.",
+    "Translate business decisions into requirements, API contracts and acceptance criteria, identifying dependencies, edge cases and delivery risks before implementation.",
+    "Coordinate a seven-person team across iOS, Android and backend development, clarifying scope, assigning tasks and aligning participants on delivery.",
+    "Helped deliver the first production release by working with the team to resolve a document-signing issue. Defined business scenarios and data collection for application metrics now used in production.",
+    "Clarify business needs and explain solution options for corporate brokerage services, helping stakeholders and engineers agree on feasible scope and expected behaviour."
   ],
   "variants": {
     "mba": {
@@ -31,6 +40,22 @@
         4,
         2,
         3
+      ]
+    },
+    "partnerships": {
+      "commercial": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "b2b-sales": {
+      "commercial": [
+        9,
+        7,
+        6,
+        8
       ]
     }
   }
