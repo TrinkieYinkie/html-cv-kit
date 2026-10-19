@@ -9,8 +9,11 @@ the author approves the HTML. This is a review draft, not final PDF acceptance.
 - [Partnerships](../Structured%20CV%20example%20-%20Alisa%20Petrova/exports/partnerships-editorial-preview.html)
 - [B2B Sales](../Structured%20CV%20example%20-%20Alisa%20Petrova/exports/b2b-sales-editorial-preview.html)
 
-The draft uses graphite sans-serif headings, warm paper tones, a shaded sidebar,
-small section labels and compact skill badges. It lives in the personal example's
+Following the author's feedback, the draft keeps the original Editorial column
+widths, spacing, Lora name and thin sidebar divider. Changes are limited to a
+graphite palette, neutral note and skill backgrounds, a lighter top rule and
+softly outlined badges. The right column has no panel background. The draft lives
+in the personal example's
 `styles/editorial-preview.css`; the approved Editorial theme is not yet replaced.
 The source facts, role chronology and page count remain the same.
 
@@ -21,10 +24,10 @@ The other local CV HTML copies also received that contact-only change.
 ## Verification
 
 - Builder contracts and content-fidelity checks pass.
-- Fourteen structured HTML exports were checked offline in Chrome, including
-  both review drafts, without producing PDFs.
-- Both drafts fit two A4-sized sheets. Minimum footer clearance is 34.94 CSS pixels
-  for Partnerships and 31.66 for B2B Sales; no detected horizontal overflow.
+- The previous round checked fourteen structured HTML exports offline in Chrome.
+  The two revised drafts passed another check without producing PDFs.
+- Both revised drafts fit two A4-sized sheets. Minimum footer clearance is 48.25
+  CSS pixels for Partnerships and 36.05 for B2B Sales, with no horizontal overflow.
 - Engineering practice is present only on page one of the commercial profiles.
 - The new Telegram link is present, and the layouts fit 390 × 500 viewports in
   light and dark modes. Scrollbars use the existing shared semantic tokens.
