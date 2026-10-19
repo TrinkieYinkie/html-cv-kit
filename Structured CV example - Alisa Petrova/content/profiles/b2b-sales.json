@@ -62,7 +62,8 @@
       ],
       "sidebar": [
         "contacts",
-        "commercial"
+        "commercial",
+        "practice"
       ]
     },
     {
@@ -91,7 +92,6 @@
       ],
       "sidebar": [
         "technology",
-        "practice",
         "education",
         "languages"
       ]

@@ -79,6 +79,13 @@ You can view these directly on GitHub before downloading or editing anything:
 These are finished examples. PDF files are snapshots and are not automatically
 refreshed by the HTML builder; print an updated PDF after changing your CV.
 
+**Design review in progress:** a neutral Editorial draft is available as
+[Partnerships HTML](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/partnerships-editorial-preview.html)
+and [B2B Sales HTML](Structured%20CV%20example%20-%20Alisa%20Petrova/exports/b2b-sales-editorial-preview.html).
+HTML contacts now use `t.me/TrinkieYinkie`, and Engineering practice is on page
+one of both commercial profiles. PDFs remain the previous snapshots until the
+author approves the HTML design. Classic styling is unchanged.
+
 ## Prefer a CV you can keep building on?
 
 The structured version separates your experience from its presentation. Change

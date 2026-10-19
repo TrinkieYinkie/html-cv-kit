@@ -1,0 +1,53 @@
+/* Review draft: warm paper, graphite typography and a quiet information panel. */
+:root {
+  --page-bg:#e9e6e0; --sheet-bg:#fffefa; --text:#292824;
+  --muted:#666159; --accent:#25241f; --line:#ddd8cf;
+  --chip-bg:#e9e5dc; --chip-border:transparent; --note-bg:#f3f0e9;
+  --scroll-track:#e9e6e0; --scroll-thumb:#a39c90;
+  --scroll-hover:#797265; --scroll-active:#514c43;
+}
+.sheet { padding-top:12mm; box-shadow:0 10px 36px #29241b1a; }
+.page-header { padding-bottom:15px; margin-bottom:14px; border-bottom:2px solid var(--accent); }
+.header-line { display:grid; grid-template-columns:1fr 1.18fr; gap:24px; align-items:center; }
+.name { font-family:Arial,"Helvetica Neue",Helvetica,sans-serif; font-size:42px; font-weight:700;
+  line-height:1.06; letter-spacing:-1.8px; margin:0; max-width:none; color:var(--accent); }
+.role-block { border:0; padding:0; gap:6px; }
+.title { font-size:16px; line-height:1.2; font-weight:700; letter-spacing:-.25px; }
+.subtitle { font-size:12px; line-height:1.4; color:var(--muted); }
+.description { margin-bottom:18px; padding-bottom:0; border:0; }
+.note { margin:0 0 12px; padding:11px 13px; border:1px solid var(--line);
+  border-radius:6px; color:var(--muted); }
+.grid { grid-template-columns:1.4fr .9fr; gap:8mm; }
+.section h2 { font-size:11px; font-weight:700; letter-spacing:1.7px; color:var(--muted); }
+.experience-column > .section > h2 { margin-bottom:14px; padding-bottom:8px; border-bottom:1px solid var(--line); }
+.role { margin-bottom:18px; }
+.company { font-size:15px; font-weight:700; letter-spacing:-.2px; color:var(--accent); }
+.period { font-size:11px; font-variant-numeric:tabular-nums; }
+.position { font-weight:700; }
+.meta { font-size:11.5px; line-height:1.4; }
+aside { background:var(--note-bg); padding:16px; border-radius:8px; }
+aside .section { margin-bottom:17px; padding-top:16px; }
+aside .section:first-child { padding-top:0; }
+aside .section:last-child { margin-bottom:0; }
+aside .section h2 { margin-bottom:11px; }
+.chips { gap:6px; }
+.chip { padding:5px 8px; border:0; border-radius:4px; }
+.competentions { font-size:12px; line-height:1.45; }
+.contact { font-size:12.5px; gap:9px; }
+.contact a { border-bottom:1px solid #a39c90; }
+.contact a:hover { border-bottom-color:var(--accent); }
+.page-footer { border-top:1px solid var(--line); padding-top:7px; color:var(--muted); letter-spacing:1px; }
+@media screen and (prefers-color-scheme:dark) {
+  :root { --page-bg:#24231f; --scroll-track:#24231f; --scroll-thumb:#7e776b;
+    --scroll-hover:#aaa394; --scroll-active:#d1cbbf; }
+}
+@media screen and (max-width:820px) {
+  .header-line { grid-template-columns:1fr; gap:16px; }
+  .name { font-size:36px; }
+  .grid { grid-template-columns:1fr; }
+  aside { padding:18px; }
+  .page-footer { margin-top:28px; }
+}
+@media print {
+  .sheet { box-shadow:none; }
+}
